@@ -12,6 +12,8 @@ logger.info(f"PROJ_ROOT path is: {PROJ_ROOT}")
 
 DATA_DIR = PROJ_ROOT / "data"
 RAW_DATA_DIR = DATA_DIR / "raw"
+RAW_DATA_DIR_IMG = RAW_DATA_DIR / "JEPG"
+RAW_DATA_DIR_ANN = RAW_DATA_DIR / "annotations"
 INTERIM_DATA_DIR = DATA_DIR / "interim"
 PROCESSED_DATA_DIR = DATA_DIR / "processed"
 EXTERNAL_DATA_DIR = DATA_DIR / "external"
@@ -20,6 +22,8 @@ MODELS_DIR = PROJ_ROOT / "models"
 
 REPORTS_DIR = PROJ_ROOT / "reports"
 FIGURES_DIR = REPORTS_DIR / "figures"
+
+SAM_WEIGHTS = EXTERNAL_DATA_DIR / "sam_vit_h_4b8939.pth"
 
 # If tqdm is installed, configure loguru with tqdm.write
 # https://github.com/Delgan/loguru/issues/135
