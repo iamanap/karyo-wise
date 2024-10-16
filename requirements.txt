@@ -15,6 +15,7 @@ scikit-learn
 tqdm
 typer
 
+labelme
 opencv-python 
 pycocotools 
 matplotlib 
